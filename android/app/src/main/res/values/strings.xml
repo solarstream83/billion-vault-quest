@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Billion Vault Quest</string>
+    <string name="app_title">BILLION VAULT QUEST</string>
+    <string name="app_title_line_one">BILLION VAULT</string>
+    <string name="app_title_line_two">QUEST</string>
+
+    <string name="splash_subtitle">SEALED VAULT EXPEDITION</string>
+    <string name="splash_loading">LOADING VAULT MAP</string>
+
+    <string name="menu_tagline">Find the core before the supplies run out.</string>
+    <string name="menu_hint">ONE MOVE PER TURN · SUPPLIES NEVER REFILL</string>
+    <string name="menu_disclaimer">FICTION ONLY · NO REAL MONEY · 18+</string>
+    <string name="menu_objective">%1$s · %2$d / %3$d</string>
+
+    <string name="title_team_setup">TEAM SETUP</string>
+    <string name="title_vault_map">VAULT MAP</string>
+    <string name="title_exploration">EXPEDITION TURN</string>
+    <string name="title_workshop">TOOL WORKSHOP</string>
+    <string name="title_collection">ARTIFACT COLLECTION</string>
+    <string name="title_summary">EXPEDITION SUMMARY</string>
+    <string name="title_settings">SETTINGS</string>
+
+    <string name="section_team">EXPEDITION TEAM</string>
+    <string name="section_roster">PICK A SPECIALIST</string>
+    <string name="section_tools">VAULT TOOLS</string>
+    <string name="section_expedition">EXPEDITION RULES</string>
+    <string name="section_presentation">PRESENTATION</string>
+    <string name="section_progress">PROGRESS</string>
+
+    <string name="action_play">START EXPEDITION</string>
+    <string name="action_play_again">PLAY AGAIN</string>
+    <string name="action_menu">MENU</string>
+    <string name="action_go">GO</string>
+    <string name="action_go_on">GO ON</string>
+    <string name="action_see_summary">SEE SUMMARY</string>
+    <string name="action_fall_back">FALL BACK</string>
+    <string name="action_extract">EXTRACT TEAM</string>
+    <string name="action_use_tool">USE TOOL</string>
+    <string name="action_push_on">PUSH ON</string>
+    <string name="action_workshop">TOOL WORKSHOP</string>
+    <string name="action_collection">COLLECTION</string>
+    <string name="action_settings">SETTINGS</string>
+    <string name="action_how_to_play">HOW TO PLAY</string>
+    <string name="action_upgrade">UPGRADE</string>
+    <string name="action_resume">RESUME</string>
+    <string name="action_restart">RESTART EXPEDITION</string>
+    <string name="action_reset">RESET</string>
+    <string name="action_reset_progress">RESET PROGRESS</string>
+    <string name="action_cancel">CANCEL</string>
+    <string name="action_close">CLOSE</string>
+
+    <string name="stat_depth_record">DEPTH RECORD</string>
+    <string name="stat_artifacts">ARTIFACTS</string>
+    <string name="stat_expeditions">EXPEDITIONS</string>
+    <string name="stat_supplies">SUPPLIES</string>
+    <string name="stat_instability">INSTABILITY</string>
+    <string name="stat_crystals">CRYSTALS</string>
+    <string name="stat_rooms_cleared">ROOMS CLEARED</string>
+    <string name="stat_turns">TURNS</string>
+    <string name="value_fraction">%1$d / %2$d</string>
+    <string name="header_turn_depth">TURN %1$d · DEPTH %2$d</string>
+    <string name="supply_state">supplies %1$d of %2$d</string>
+
+    <string name="map_hint">TAP AN ADJACENT ROOM, THEN GO</string>
+    <string name="map_no_run">No expedition is running. Pick a team and head back into the vault.</string>
+
+    <string name="loadout_title">LOADOUT</string>
+    <string name="loadout_supplies">Starting supplies: %1$d</string>
+    <string name="loadout_line">%1$s carries the %2$s</string>
+    <string name="loadout_empty">No specialist assigned yet.</string>
+    <string name="team_hint">THREE SPECIALISTS · THREE TOOLS · ONE VAULT</string>
+    <string name="slot_empty_title">EMPTY SLOT · TAP TO ASSIGN</string>
+    <string name="slot_state_empty">empty slot</string>
+    <string name="slot_state_filled">slot filled</string>
+    <string name="chip_state_available">available</string>
+    <string name="chip_state_taken">already assigned</string>
+
+    <string name="specialist_surveyor">SURVEYOR</string>
+    <string name="specialist_engineer">ENGINEER</string>
+    <string name="specialist_locksmith">LOCKSMITH</string>
+    <string name="specialist_porter">PORTER</string>
+    <string name="specialist_geologist">GEOLOGIST</string>
+    <string name="specialist_surveyor_effect">Survey marks also uncover one neighbouring room.</string>
+    <string name="specialist_engineer_effect">Answers a collapsed shaft without spending supplies.</string>
+    <string name="specialist_locksmith_effect">Opens brass seals and empties crystal pockets fully.</string>
+    <string name="specialist_porter_effect">Carries three extra supplies into the vault.</string>
+    <string name="specialist_geologist_effect">Reads every survey mark one ring more precisely.</string>
+
+    <string name="tool_scanner">SCANNER</string>
+    <string name="tool_brace">BRACE</string>
+    <string name="tool_lockpick">LOCKPICK</string>
+    <string name="tool_pack">PACK</string>
+    <string name="tool_core_sense">CORE SENSE</string>
+    <string name="tool_scanner_effect">Sweeps one neighbouring room while reading a mark.</string>
+    <string name="tool_brace_effect">Holds a collapsing shaft open for zero supplies.</string>
+    <string name="tool_lockpick_effect">Turns a brass seal and empties a crystal pocket.</string>
+    <string name="tool_pack_effect">Extra supplies and room for two more artifacts.</string>
+    <string name="tool_core_sense_effect">Narrows the ring the vault core can hide in.</string>
+    <string name="tool_state_level">level %1$d of %2$d</string>
+    <string name="tool_mastered">MASTERED</string>
+    <string name="tool_cost">COST %1$d</string>
+    <string name="tool_need">NEED %1$d</string>
+    <string name="workshop_all_mastered">ALL TOOLS MASTERED · SPEND CRYSTALS ON DEEPER RUNS</string>
+
+    <string name="collection_empty">NO ARTIFACTS YET · BRING ONE HOME FROM THE VAULT</string>
+    <string name="artifact_hidden">\?\?\?</string>
+    <string name="artifact_unknown">UNKNOWN RELIC</string>
+    <string name="artifact_state_owned">recovered</string>
+    <string name="artifact_state_missing">not recovered</string>
+    <string name="artifact_0">MALACHITE SEAL</string>
+    <string name="artifact_1">QUARTZ LANTERN</string>
+    <string name="artifact_2">BANDED AGATE DISC</string>
+    <string name="artifact_3">OBSIDIAN KEYSTONE</string>
+    <string name="artifact_4">BRASS ESCAPEMENT</string>
+    <string name="artifact_5">GEARED COMPASS</string>
+    <string name="artifact_6">TUMBLER RING</string>
+    <string name="artifact_7">CLOCKWORK ANCHOR</string>
+    <string name="artifact_8">CORE SHARD</string>
+    <string name="artifact_9">GILDED FACET</string>
+    <string name="artifact_10">VAULT SIGIL</string>
+    <string name="artifact_11">BILLION PRISM</string>
+
+    <string name="set_mineral_relics">MINERAL RELICS</string>
+    <string name="set_brass_mechanisms">BRASS MECHANISMS</string>
+    <string name="set_core_fragments">CORE FRAGMENTS</string>
+    <string name="set_bonus_mineral">SET COMPLETE · +2 STARTING SUPPLIES</string>
+    <string name="set_bonus_brass">SET COMPLETE · +1 SPECIALIST CHARGE</string>
+    <string name="set_bonus_core">SET COMPLETE · A FREE MARK AT THE ENTRANCE</string>
+
+    <string name="objective_clear_rooms">CLEAR 8 ROOMS IN ONE RUN</string>
+    <string name="objective_artifacts">RECOVER 2 ARTIFACTS IN ONE RUN</string>
+    <string name="objective_upgrade">UPGRADE ANY TOOL TO II</string>
+    <string name="objective_set">COMPLETE ONE SET</string>
+    <string name="objective_core">RECOVER THE CORE</string>
+    <string name="objective_core_deep">RECOVER THE CORE ON DEEP 6x6</string>
+
+    <string name="room_survey_mark">SURVEY MARK</string>
+    <string name="room_crystal_pocket">CRYSTAL POCKET</string>
+    <string name="room_the_core">THE CORE</string>
+    <string name="room_empty_gallery">EMPTY GALLERY</string>
+    <string name="room_collapsed_shaft">COLLAPSED SHAFT</string>
+    <string name="room_brass_seal">BRASS SEAL</string>
+    <string name="room_survey_mark_desc">An old surveyor cut a bearing into the stone here.</string>
+    <string name="room_crystal_pocket_desc">A seam of raw crystal glitters behind a thin crust.</string>
+    <string name="room_the_core_desc">The vault core rests on its plinth, waiting to be lifted.</string>
+    <string name="room_empty_gallery_desc">Bare stone, old dust, nothing worth the lantern oil.</string>
+    <string name="room_collapsed_shaft_desc">The roof is coming down. It needs a brace or brute force.</string>
+    <string name="room_brass_seal_desc">A brass seal locks the passage. It needs a pick or brute force.</string>
+
+    <string name="heading_north">NORTH</string>
+    <string name="heading_north_east">NORTH-EAST</string>
+    <string name="heading_east">EAST</string>
+    <string name="heading_south_east">SOUTH-EAST</string>
+    <string name="heading_south">SOUTH</string>
+    <string name="heading_south_west">SOUTH-WEST</string>
+    <string name="heading_west">WEST</string>
+    <string name="heading_north_west">NORTH-WEST</string>
+
+    <string name="outcome_brace_holds">BRACE HOLDS · THE SHAFT STAYS OPEN</string>
+    <string name="outcome_seal_picked">LOCKPICK TURNS · THE BRASS SEAL SWINGS WIDE</string>
+    <string name="outcome_supplies_spilled">SUPPLIES SPILLED -%1$d</string>
+    <string name="outcome_crystals_pocketed">CRYSTALS POCKETED +%1$d</string>
+    <string name="outcome_crystals_scraped">CRYSTALS SCRAPED +%1$d</string>
+    <string name="outcome_survey_precise">SURVEY MARK · CORE IS %1$d ROOMS AWAY</string>
+    <string name="outcome_survey_vague">SURVEY MARK · CORE LIES %1$s</string>
+    <string name="outcome_scanner_peek">SCANNER SWEEP · CORE IS %1$d ROOMS AWAY</string>
+    <string name="outcome_empty_gallery">EMPTY GALLERY · ONLY DUST AND A SPENT TURN</string>
+    <string name="outcome_core_recovered">THE CORE IS LIFTED +%1$d CRYSTALS</string>
+    <string name="outcome_stepped_back">TEAM STEPS BACK -%1$d SUPPLY</string>
+    <string name="outcome_artifact">ARTIFACT RECOVERED · %1$s</string>
+
+    <string name="decision_free">NO SUPPLY COST</string>
+    <string name="decision_cost">COSTS %1$d SUPPLIES</string>
+    <string name="decision_tool_cost">%1$s · NO SUPPLY COST</string>
+    <string name="decision_missing_tool">%1$s NOT IN THE TEAM</string>
+    <string name="decision_fatigued">%1$s IS OUT OF CHARGES</string>
+    <string name="delta_supplies">SUPPLIES %1$d · CHANGE %2$d</string>
+    <string name="delta_crystals">CRYSTALS %1$d · CHANGE %2$d</string>
+
+    <string name="result_core_recovered">CORE RECOVERED</string>
+    <string name="result_team_extracted">TEAM EXTRACTED</string>
+    <string name="result_supplies_gone">SUPPLIES GONE</string>
+    <string name="result_new_record">NEW DEPTH RECORD</string>
+    <string name="result_set_complete">SET COMPLETE · %1$s</string>
+    <string name="result_objective_done">OBJECTIVE COMPLETE · +60 CRYSTALS</string>
+    <string name="result_objective">OBJECTIVE · %1$s · %2$d / %3$d</string>
+    <string name="result_no_data">The expedition log is empty. Start a new run from the menu.</string>
+    <string name="result_balance">CRYSTAL BALANCE %1$d</string>
+
+    <string name="setting_vault_size">VAULT SIZE</string>
+    <string name="setting_clue_detail">CLUE DETAIL</string>
+    <string name="setting_supplies">STARTING SUPPLIES</string>
+    <string name="setting_reduced_motion">REDUCED MOTION</string>
+    <string name="setting_reduced_motion_hint">Stops looping decoration, keeps game feedback.</string>
+    <string name="option_standard">STANDARD 5x5</string>
+    <string name="option_deep">DEEP 6x6</string>
+    <string name="option_precise">PRECISE</string>
+    <string name="option_vague">VAGUE</string>
+    <string name="option_supplies_lean">9</string>
+    <string name="option_supplies_standard">12</string>
+    <string name="option_supplies_rich">15</string>
+    <string name="option_state_selected">selected</string>
+    <string name="option_state_idle">not selected</string>
+    <string name="settings_reset_done">Progress cleared.</string>
+
+    <string name="tile_state_sealed">sealed room</string>
+    <string name="tile_state_open">explored room</string>
+    <string name="tile_state_candidate">possible core location</string>
+    <string name="tile_state_selected">selected target</string>
+    <string name="tile_state_team">team is here</string>
+    <string name="tile_state_collapsed">collapsed, impassable</string>
+
+    <string name="dialog_pause_title">EXPEDITION PAUSED</string>
+    <string name="dialog_pause_message">The vault waits. Nothing moves until you do.</string>
+    <string name="dialog_abandon_title">LEAVE THE VAULT</string>
+    <string name="dialog_abandon_message">Walking out now loses everything the team is carrying.</string>
+    <string name="dialog_reset_title">RESET PROGRESS</string>
+    <string name="dialog_reset_message">Records, crystals, tools, artifacts and objectives will be cleared.</string>
+    <string name="dialog_rules_title">HOW TO PLAY</string>
+    <string name="rules_turn">TAP an adjacent room, then GO. Every move spends one supply.</string>
+    <string name="rules_encounters">A room holds a survey mark, a trap, a crystal pocket, an empty gallery or the core.</string>
+    <string name="rules_supplies">Supplies never refill. At zero the expedition ends where it stands.</string>
+    <string name="rules_tools">USE TOOL answers a trap or a pocket for free, but each specialist has limited charges.</string>
+    <string name="rules_extract">EXTRACT TEAM banks everything carried. Reaching the core ends the run with a bonus.</string>
+    <string name="rules_fiction">Crystals are fiction. No wagering, no payouts, no real money.</string>
+
+    <string name="cd_logo">Vault emblem</string>
+    <string name="cd_back_home">Back to menu</string>
+    <string name="cd_pause">Pause expedition</string>
+    <string name="cd_vault_room">Vault room</string>
+    <string name="cd_encounter">Room encounter</string>
+    <string name="cd_result_hero">Expedition result</string>
+</resources>
